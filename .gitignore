@@ -33,6 +33,10 @@ yarn-error.*
 # local env files
 .env*.local
 
+# EAS / signing secrets — never commit
+google-service-account.json
+*.mobileprovision
+
 # typescript
 *.tsbuildinfo
 
