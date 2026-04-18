@@ -33,6 +33,9 @@ yarn-error.*
 # local env files
 .env*.local
 
+# Supabase CLI cache
+supabase/.temp/
+
 # EAS / signing secrets — never commit
 google-service-account.json
 *.mobileprovision
